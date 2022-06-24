@@ -29,20 +29,29 @@ Using 2 UTCI metrics as training input vectors, we demonstrate the unsupervised 
 
 # Software
 The data model is built on and requires
+
      (1) Rhino and Grasshopper
      (2) Dragonfly
      (3) ENVI-met
 
 The SuperSOM model is built on and requires
+
      (1) RStudio
      (2) All packages specified at the beginning of the codes
 
 # User guide
 
-1, download all files, including four CSV files required to execute SuperSOM.
-2, click into the 'Import SuperSOM.R' file. Replace the file paths before executing the SuperSOM function.
-3, explore the UTCI maps in the 'UTCI_Map.R' file after SuperSOM completes iterations.
-4, explore the morphometrics maps in the 'Morphometrics_map.R' file. Note that Morphometrics are not included in SuperSOM's input vectors.
+Instructions
+
+     (1) download all files, including four CSV files required to execute SuperSOM.
+     (2) click into the 'Import SuperSOM.R' file. Replace the file paths before executing the SuperSOM function.
+     (3) explore the UTCI maps in the 'UTCI_Map.R' file after SuperSOM completes iterations.
+     (4) explore the morphometrics maps in the 'Morphometrics_map.R' file. Note that Morphometrics are not included in SuperSOM's input vectors.
 
 # Code references
 
+Links
+
+     (1) [here]
+     (2) [here]
+     (3) [here]
