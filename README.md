@@ -38,9 +38,9 @@ The SuperSOM model is built on and requires
 
 1. RStudio 2022.02.3 (https://www.rstudio.com/products/rstudio/download/#download)
 2. All packages specified at the beginning of the code files
-   > library(kohonen)
-   > library(ggplot2)
-   > library(dummies)
+   `library(kohonen)`
+   `library(ggplot2)`
+   `library(dummies)`
 
 The hybrid K-means and HAC SuperSOM codes were redeveloped upon the code published by Love Börjeson in RPub repository (https://api.rpubs.com/loveb/t_sne)
 
