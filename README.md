@@ -12,8 +12,8 @@ The data on microclimatic dynamics and built forms between different courtyards 
 
 Two UTCI-based spatial-thermal metrics were defined:
 
-1. M(UTCI), the spatial mean of UTCI across a surface dataset. This metric indicate the thermal-tempering potential
-3. d(UTCI), the spatial deviation of UTCI across a surface dataset. This metric indicate the thermal-enriching potential
+1. M(UTCI), the spatial mean of UTCI across a surface dataset. This metric indicates the thermal-tempering potential
+3. d(UTCI), the spatial deviation of UTCI across a surface dataset. This metric indicates the thermal-enriching potential
 
 Seven courtyard morphometrics were defined:
 
@@ -38,9 +38,9 @@ The SuperSOM model is built on and requires
 
 1. RStudio 2022.02.3 (https://www.rstudio.com/products/rstudio/download/#download)
 2. All packages specified at the beginning of the code files
-   - library(kohonen)
-   - library(ggplot2)
-   - library(dummies)
+   > library(kohonen)
+   > library(ggplot2)
+   > library(dummies)
 
 The hybrid K-means and HAC SuperSOM codes were redeveloped upon the code published by Love Börjeson in RPub repository (https://api.rpubs.com/loveb/t_sne)
 
@@ -54,8 +54,11 @@ Instructions
 5. Visualise the morphometrics maps in the 'Morphometrics_map.R' file. 
 
 # Code references
+1. **[here]**
+2. **[here]**
+
 
 Links
 
-1. (https://github.com/ladybug-tools/dragonfly-legacy)
-2. (https://api.rpubs.com/loveb/t_sne)
+1. https://github.com/ladybug-tools/dragonfly-legacy
+2. https://api.rpubs.com/loveb/t_sne
