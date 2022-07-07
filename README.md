@@ -1,6 +1,6 @@
 # SuperSOM code for mapping microclimate dissimilarity at courtyard scale
 
-This is templated tutorial. All **[here]** link will be renewed after the publication of the article
+This is templated tutorial. All **[here]** link will be renewed after the publication of the article.
 
 The files incorporate the Super (Self-)Organising Map (SuperSOM) algorithms to measure the dissimilarity of urban microclimate (see attached paper [here] pending Elsevier publication).
 
@@ -10,12 +10,12 @@ Further references regarding the urban thermal diversity, UTCI maps and study ar
 
 The data on microclimatic dynamics and built forms between different courtyards was obtained using parametric techniques. The GH codes for built form and UTCI maps can be found **[here]**. To obtain UTCI maps, ENVI-met modelling or static approaches, such as Ladybug and Honeybee, are required. The GH codes to streamline and visualise the ENVI-met outputs can be found **[here]**.
 
-Two UTCI-based spatial-thermal metrics were defined:
+## Spatial UTCI metrics
 
 1. M(UTCI), the spatial mean of UTCI across a surface dataset. This metric indicates the thermal-tempering potential
 3. d(UTCI), the spatial deviation of UTCI across a surface dataset. This metric indicates the thermal-enriching potential
 
-Seven courtyard morphometrics were defined:
+## Morphometrics
 
 1. CA (courtyard area)
 2. VAR (vertical area ratio)
