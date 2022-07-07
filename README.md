@@ -1,6 +1,6 @@
 # SuperSOM code for mapping microclimate dissimilarity at courtyard scale
 
-***This is templated tutorial. All [here] link will be renewed after the publication of the article***
+This is templated tutorial. All **[here]** link will be renewed after the publication of the article
 
 The files incorporate the Super (Self-)Organising Map (SuperSOM) algorithms to measure the dissimilarity of urban microclimate (see attached paper [here] pending Elsevier publication).
 
