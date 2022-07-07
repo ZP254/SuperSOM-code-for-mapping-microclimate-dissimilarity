@@ -6,9 +6,9 @@ The files incorporate the Super (Self-)Organising Map (SuperSOM) algorithms to m
 
 **The model is based on _RStudio 2022.02.3_ for MacOS.**
 
-Further references regarding the urban thermal diversity, UTCI maps and study area can be found [here]. The research project was presented at ISUF (International Seminar on Urban Form) conference in Glasgow, UK in 2021.
+Further references regarding the urban thermal diversity, UTCI maps and study area can be found **[here]**. The research project was presented at ISUF (International Seminar on Urban Form) conference in Glasgow, UK in 2021.
 
-The data on microclimatic dynamics and built forms between different courtyards was obtained using parametric techniques. The GH codes for built form and UTCI maps can be found [here]. To obtain UTCI maps, ENVI-met modelling or static approaches, such as Ladybug and Honeybee, are required. The GH codes to streamline and visualise the ENVI-met outputs can be found [here].
+The data on microclimatic dynamics and built forms between different courtyards was obtained using parametric techniques. The GH codes for built form and UTCI maps can be found **[here]**. To obtain UTCI maps, ENVI-met modelling or static approaches, such as Ladybug and Honeybee, are required. The GH codes to streamline and visualise the ENVI-met outputs can be found **[here]**.
 
 Two UTCI-based spatial-thermal metrics were defined:
 
@@ -27,19 +27,16 @@ Seven courtyard morphometrics were defined:
 
 Using 2 UTCI metrics as training input vectors, we demonstrate the unsupervised learning of courtyard microclimatic dissimilarity. Consequently, the below instructions only lead to topological SOM maps based on UTCI and not morphometrics. Note that the 7 morphometrics can also be explored if these vectors are replaced for the training inputs.
 
-# Software
+# Softwares
 The data model is built on and requires
 
-1. Rhino 
-2. Grasshopper
-3. Dragonfly
-4. ENVI-met
-
-The GH codes were based on (https://github.com/ladybug-tools/dragonfly-legacy)
+1. Rhino and Grasshopper (https://www.rhino3d.com/)
+3. Dragonfly (https://github.com/ladybug-tools/dragonfly-legacy)
+4. ENVI-met (https://www.envi-met.com/)
 
 The SuperSOM model is built on and requires
 
-1. RStudio 2022.02.3
+1. RStudio 2022.02.3 (https://www.rstudio.com/products/rstudio/download/#download)
 2. All packages specified at the beginning of the code files
    - library(kohonen)
    - library(ggplot2)
@@ -51,10 +48,10 @@ The hybrid K-means and HAC SuperSOM codes were redeveloped upon the code publish
 
 Instructions
 
-1. Download four CSV files to execute SuperSOM.
-2. Replace the file paths before executing the SuperSOM function in the 'Import SuperSOM.R' file
-3. Visualise the UTCI maps in the 'UTCI_Map.R' file
-4. Visualise the morphometrics maps in the 'Morphometrics_map.R' file. 
+1. Download four CSV files to execute SuperSOM function in R.
+3. Replace the file paths before executing the SuperSOM function in the 'Import SuperSOM.R' file
+4. Visualise the UTCI maps in the 'UTCI_Map.R' file
+5. Visualise the morphometrics maps in the 'Morphometrics_map.R' file. 
 
 # Code references
 
